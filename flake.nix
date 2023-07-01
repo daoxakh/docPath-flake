@@ -1,5 +1,5 @@
-# Based on https://github.com/cmm/flake-lib/blob/master/flake.nix
 {
+  description = "A flake providing a function for adding texinfo directories to the INFOPATH environment variable";
   outputs = {...}: {
     lib.addInfoPath = nixpkgs: attr:
       let
